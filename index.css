@@ -1,0 +1,12 @@
+.input-field{
+  width: 95%;
+}
+
+.profile-cover{
+  margin-top: -5rem;
+}
+.profile{
+  margin:auto;
+  /* width: 13rem; */
+  z-index: 1;
+}

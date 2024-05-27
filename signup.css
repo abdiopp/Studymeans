@@ -1,0 +1,119 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  height: 100vh;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+::placeholder{
+  text-transform: capitalize;
+}
+.container1 , .container2{
+  line-height: 1.5rem;
+  width: 45vw;
+  margin: 2rem;
+  padding: 2rem;
+  height: 25rem;
+  /* border: 1px solid red; */
+}
+.container1{
+  text-align: center;
+}
+.container1 > p{
+  margin: 1rem;
+}
+.container2{
+  text-align: center;
+}
+.outercontainer{
+  display: flex;
+  height: 95vh;
+}
+fieldset{
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+input{
+  width: 80%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem;
+  /* border-radius: .5rem; */
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.forgot{
+  text-align: end;
+  min-width: 27rem;
+}
+.forgot > a {
+  text-decoration: none;
+  font-size: small;
+}
+.container2 > p{
+  margin: 1rem;
+}
+a.signIn{
+  border: 1px solid black;
+  text-decoration: none;
+  padding: .5rem 2rem ;
+  font-size: 1rem;
+  border-radius: .5rem;
+  background-color: #003333;
+  color: white;
+}
+a.signIn:hover{
+  background-color: #0b4242;
+
+}
+a.signUp{
+  border: 1px solid black;
+  text-decoration: none;
+  padding: .5rem 2.5rem ;
+  font-size: 1rem;
+  border-radius: .5rem;
+  background-color: #117953;
+  color: white;
+}
+.btn2 {
+  padding: .5rem;
+  background-color: #1a202c;
+  color: whitesmoke;
+  border-radius: 8px; 
+  margin-top: 2rem;
+  font-size: 15px;
+}
+
+.btn2:hover {
+  background-color: #117953;
+}
+
+.footer{
+  padding: 1.5rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1a202c;
+  height: 5vh;
+}
+.footer > a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 200;
+  color: whitesmoke;
+}
+.footer > a:hover{
+  color:rgb(65, 180, 142);
+}
